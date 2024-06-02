@@ -42,8 +42,8 @@ jobs:
       - name: Build
         run: |
           cd kernel
-          wget https://raw.githubusercontent.com/ArvinPWD/sh/master/build.sh?token=GHSAT0AAAAAACQYRWVKFTKU7ZN253CHHLV2ZS4RC3A
-          wget https://raw.githubusercontent.com/ArvinPWD/sh/master/build.sh?token=GHSAT0AAAAAACQYRWVKFTKU7ZN253CHHLV2ZS4RC3A && chmod +x ./build.sh
+          wget https://raw.githubusercontent.com/ArvinPWD/sh/master/build.sh
+          wget https://raw.githubusercontent.com/ArvinPWD/sh/master/build.sh && chmod +x ./build.sh
           echo "Building kernel"
           ./build.sh
 
