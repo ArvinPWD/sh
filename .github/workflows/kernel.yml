@@ -35,7 +35,7 @@ jobs:
 
       - name: Clone kernel repo
         run: |
-          git clone https://github.com/ArvinPWD/mt6768.git -b 14 --depth=500 kernel
+          git clone https://github.com/ArvinPWD/android_kernel_xiaomi_mt6768.git -b Base --depth=500 kernel
           cd kernel 
           sed -i 's/^CONFIG_LOCALVERSION=".*"/CONFIG_LOCALVERSION="-Mavins"/' arch/arm64/configs/merlin_defconfig
 
